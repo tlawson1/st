@@ -6,7 +6,8 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 /*static char *font = "Liberation Mono:pixelsize=35:antialias=true:autohint=true";*/
-static char *font = "UbuntuMono-B:pixelsize=45:antialias=true:autohint=true";
+static char *font = "UbuntuMono-B:pixelsize=35:antialias=true:autohint=true";
+/*static char *font = "JetBrainsMono Nerd Font:pixelsize=35:antialias=true:autohint=true";*/
 static int borderpx = 15;
 
 /*
@@ -95,7 +96,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* Background opacity */
-float alpha = 0.6;
+float alpha = 0.4;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
